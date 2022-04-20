@@ -1,0 +1,113 @@
+// navbar component
+$primary:#f4b800;
+$primo:linear-gradient(#ff9966 , #ff5e62 );
+$blueGradient :linear-gradient(#aa076b , #61045f );
+$black:#28282B;
+$primeFont:'Space Mono', monospace; 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+// body{
+//     background: $blueGradient;
+// }
+.header{
+    width:100%;
+    margin: -1;
+    background: $blueGradient;
+    color: white   ;
+    .navbar-brand{
+        font-family: 'Space Mono', monospace; 
+        margin-left:2rem ;
+        letter-spacing: 2px;
+       font-weight: 400;
+       color: white;
+    }
+    .nav-item{
+        padding: 1rem 2rem;
+        color: white     ;
+    }
+    ul li{
+        color: white;
+    } 
+    ul{
+        color: white ;
+    }
+}
+
+
+
+
+// navbar end
+
+// home start
+
+.home{
+    margin: 2rem 15%;
+    // border: 2px red solid;
+}
+.bmi-button {
+    background: $blueGradient;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 5rem;
+    padding: 1rem 3rem;
+    color:white;
+
+
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .bmi-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 1px 30px;
+    transition-duration: .1s;
+  }
+  .tracker{
+      margin:auto;
+      text-align: center;
+      margin: 1rem auto;
+  }
+  .plan-btn{
+      background: $blueGradient;
+      padding: 3rem 4rem;
+      border: none;
+    //   font-family: $primeFont;
+      font-weight: 600;
+      border-radius: 10px ;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      color: white;
+
+  }
+  .plans{
+      margin :5% 0;
+  }
+  .plan{
+    //   margin: 1rem ;
+      padding: 1rem;
+    //   border: 3px red solid;
+  }
+  hr{
+      color: red;
+      height: 20px;
+      width: 100%;
+
+  }
+  
+  @media (max-width: 768px) {
+    .bmi-button{
+        padding: 1rem 5rem;
+        height:7rem;
+    }
+    .home{
+        margin: 2rem 20%;
+    }
+  }
+
+// home end
