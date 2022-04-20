@@ -1,17 +1,14 @@
 // navbar component
-$primary:#f4b800;
-$primo:linear-gradient(#ff9966 , #ff5e62 );
-$blueGradient :linear-gradient(#aa076b , #61045f );
-$black:#28282B;
-$primeFont:'Space Mono', monospace; 
+@use 'variables' as v; 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('./bmi-tracker.scss');
 // body{
 //     background: $blueGradient;
 // }
 .header{
     width:100%;
     margin: -1;
-    background: $blueGradient;
+    background: v.$blueGradient;
     color: white   ;
     .navbar-brand{
         font-family: 'Space Mono', monospace; 
@@ -44,7 +41,7 @@ $primeFont:'Space Mono', monospace;
     // border: 2px red solid;
 }
 .bmi-button {
-    background: $blueGradient;
+    background: v.$blueGradient;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
@@ -74,7 +71,7 @@ $primeFont:'Space Mono', monospace;
       margin: 1rem auto;
   }
   .plan-btn{
-      background: $blueGradient;
+      background: v.$blueGradient;
       padding: 3rem 4rem;
       border: none;
     //   font-family: $primeFont;
