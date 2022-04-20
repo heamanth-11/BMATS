@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 function Home() {
     onclick=()=>{
         // alert('HO HO HO ')
@@ -8,7 +8,7 @@ function Home() {
         <div className='home'>
             <div className="row">
                 <div className="col-sm6 tracker ">
-                   <a href="/bmi-tracker"> <button onClick={onclick} className='bmi-button'>TRACK BMI</button> </a>
+                   <Link to="/bmi-tracker"> <button onClick={onclick} className='bmi-button'>TRACK BMI</button> </Link>
                 </div>
                 <div className="col-sm6  tracker">
                    <button className='bmi-button'> TRACK BMR</button>
