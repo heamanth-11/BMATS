@@ -11,7 +11,7 @@ function Home() {
                    <Link to="/bmi-tracker"> <button onClick={onclick} className='bmi-button'>TRACK BMI</button> </Link>
                 </div>
                 <div className="col-sm6  tracker">
-                   <button className='bmi-button'> TRACK BMR</button>
+                <Link to="/bmi-tracker">   <button className='bmi-button'> TRACK BMR </button> </Link>
                 </div>
             </div>
             <hr/>
@@ -30,7 +30,7 @@ function Home() {
 
                     </div>
 
-                  
+                  x
             </div>
         
         

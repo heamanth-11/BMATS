@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Bmitracker() {
-    return (
-     <div className="bmi">
-         <div className="bmi-form">
-             <label htmlFor="">BMI TRACKER</label>
+function BmrTracker(props) {
+    return <div className='bmrtracker'>
+             <div className="bmr-form">
+             <label htmlFor="">BMR TRACKER</label>
              <input className='side-border weight' type="number" placeholder='Weight in KG' name='weight' />
              <input className='side-border' type="number" name="height" placeholder='height in cm' />
              <input className='side-border' type="number" placeholder='Age' name='Age' />
@@ -15,11 +13,11 @@ function Bmitracker() {
 
              </select>
            
-            <button id='bmiTracker' type='button'> Track BMI </button>
+            <button id='bmrTracker' type='button'> Track BMR </button>
          </div>
-        
-     </div>
-    );
+            
+        </div>
+
 }
 
-export default Bmitracker;
+export default BmrTracker;

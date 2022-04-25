@@ -22,7 +22,7 @@ select{
 input:after{
     box-decoration-break:none ;
 }
-.bmi{
+.bmr{
     width: 100%;
     place-items: center;
     align-items: center;
@@ -54,7 +54,7 @@ label{
     // letter-spacing: 2px;
     margin: 2rem 0 ;
 }
-#bmiTracker{
+#bmrTracker{
     padding: 10px 5rem;
     margin: 2rem 0 ;
     background: v.$blueGradient;
@@ -72,7 +72,7 @@ label{
     select{
         width: 19.5rem;
     }
-    #bmiTracker{
+    #bmrTracker{
         padding: 10px 6rem;}
 
 
@@ -86,7 +86,7 @@ label{
     select{
         width: 17.8rem;
     }
-    #bmiTracker{
+    #bmrTracker{
         padding: 10px 5.2rem;}
 
   }
