@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 function Navbar(props) {
     return (
         <div className="header">
@@ -11,7 +11,7 @@ function Navbar(props) {
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="/">Home </a>
+        <Link class="nav-link" to="/">Home </Link>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/">Login</a>
