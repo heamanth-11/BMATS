@@ -24,7 +24,7 @@ function Home() {
                           <Link to="/bmi-tracker"> <button className='bmi-button'>TRACK BMI</button> </Link>
                           </div>
                         <div className="col-sm6  tracker">
-                         <Link to="/bmi-tracker">   <button className='bmi-button'> TRACK BMR </button> </Link>
+                         <Link to="/bmr-tracker">   <button className='bmi-button'> TRACK BMR </button> </Link>
                          </div>
                      </div>
           

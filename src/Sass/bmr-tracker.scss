@@ -29,7 +29,7 @@ input:after{
     text-align: center;
     margin: 1rem 0;
 }
- .bmi-form{
+ .bmr-form{
     margin: auto;
     text-align: center;
     align-items: center;
@@ -52,7 +52,9 @@ label{
     font-size: 2rem;
     font-weight: 600;
     // letter-spacing: 2px;
-    margin: 2rem 0 ;
+    margin: 2rem 0px 1rem 0px ;
+    // margin: 2rem 0 ;
+    letter-spacing: 2px;
 }
 #bmrTracker{
     padding: 10px 5rem;
