@@ -1,4 +1,5 @@
 import React from 'react';
+import BMIPopup from './BMIPopup';
 // import { Link } from 'react-router-dom';
 
 function Bmitracker() {
@@ -15,7 +16,11 @@ function Bmitracker() {
 
              </select>
            
-            <button id='bmiTracker' type='button'> Track BMI </button>
+            <button id='bmiTracker' type='submit' onClick={(event)=>{
+               { }
+                <BMIPopup trigger={true} />
+
+            }} > Track BMI </button>
          </div>
         
      </div>
