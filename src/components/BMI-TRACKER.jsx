@@ -17,7 +17,7 @@ function Bmitracker() {
              </select>
            
             <button id='bmiTracker' type='submit' onClick={(event)=>{
-               { }
+            //    { }
                 <BMIPopup trigger={true} />
 
             }} > Track BMI </button>
