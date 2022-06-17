@@ -1,0 +1,39 @@
+@use 'variables' as v ;
+
+.TrackNutrients {
+    background-image: url('../Assets/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg');
+    margin:auto;
+    // display:sol;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .TrackNutrients-child{
+        justify-content: center;
+        align-items:center;
+        margin:auto;
+         display:flex;
+        display: block;
+         width: 100%;
+         text-align: center;
+         height: 100vh;
+         padding: 10% 0 30% 0;
+       .nutrition{
+        width: 80%;
+        // height: 2rem;
+        font-size: 1rem;
+        padding: 1rem;
+        // border: solid 1px ;
+        margin: auto;
+       }  
+       .search-Nutrition{
+        background-image: linear-gradient(#aa076b , #61045f );
+        padding: 1rem 3rem;
+        border: #61045f;
+        color: white;
+        border-radius: 5px;
+
+       }
+
+    }
+
+}

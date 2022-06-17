@@ -1,0 +1,41 @@
+@use 'variables' as v; 
+
+.NutritionResult{
+    background-color: white;
+    margin: auto;
+    width: 90%;
+
+    .NutritionResult-child{
+        margin: auto; 
+        width: 100%;
+    } 
+    .ror{
+        // width: 9/%;
+        text-align: center;
+        margin: auto;
+        background-image: v.$blueGradient;
+    }
+    .thead{
+        // background-image:v.$blueGradient;
+        // color: purple;
+        color: white;
+
+    }  
+    p{
+        color: black;
+        padding:  1rem ;
+        color: white;
+        // background-color: grey;
+    }
+    .rore{
+        background-color: grey;
+    }
+    .row{
+    text-align: center;
+    margin: auto;
+    }
+    h1{
+        font-weight: 200;
+        color: black;
+    }
+}

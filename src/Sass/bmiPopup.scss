@@ -1,8 +1,34 @@
 @use 'variables' as v ; 
 
-.bmipopup-child{
+.bmipopup{
     text-align: center;
     align-items: center;
+    justify-content: center;
+    margin: 0;
     display: flex;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.2);
+    width: 100%;
+    height: 100vh;
+    .bmipopup-child{
+        position: relative;
+        padding:2rem;
+        width: 100%;
+        max-width: 640px;
+        background-color: white;
+        .close{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            color: black;
+            font-weight: 800;
+            font-size: 20px;
+        }
+        p{
+            color: grey;
+            font-size: 12px;
+        }
+    }
 }

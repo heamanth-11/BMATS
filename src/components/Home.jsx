@@ -20,11 +20,14 @@ function Home() {
                     <hr/>
                     </div>
                     <div className="row">
-                         <div className="col-sm6 tracker ">
+                         <div className="col-sm-4 col-12 tracker ">
                           <Link to="/bmi-tracker"> <button className='bmi-button'>TRACK BMI</button> </Link>
                           </div>
-                        <div className="col-sm6  tracker">
+                        <div className="col-sm-4 col-12 tracker">
                          <Link to="/bmr-tracker">   <button className='bmi-button'> TRACK BMR </button> </Link>
+                         </div>
+                         <div className="col-sm-4 col-12  tracker">
+                         <Link to="/track-nutrition">   <button className='bmi-button'> Track Nutrients </button> </Link>
                          </div>
                      </div>
           
