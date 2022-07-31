@@ -16,6 +16,7 @@ function App() {
     <Route path="/bmi-tracker" element={<Bmitracker/>}/>
     <Route path="/bmr-tracker" element={<BmrTracker/>} />
     <Route path="/track-nutrition" element={<TrackNutrients/>} />
+    
     </Routes>
     
    
